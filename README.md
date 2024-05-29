@@ -33,6 +33,25 @@ OpenWeatherAPI: to get the weather based on coordinates and display the data to 
 <br>
 [OpenWeatherAPI Link](https://openweathermap.org/api)
 
+## Important Notes on APIs:
+
+Begin searching a weather API ([OpenWeather](https://openweathermap.org/api) is an option)
+
+<strong>Notes on the OpenWeather API:</strong>
+
+If you choose to use the OpenWeather API, you will discover quickly that the API's free tier limits you to 1000 requests per day. This should be more than enough, but if the limit is hit, then the cooldown period of each call is 24 hours.
+
+When using OpenWeather API, the main endpoint is: `https://api.openweathermap.org/data/2.5/weather?q=NewYork&appid=${APIKEY}`, where APIKEY is an environment variable.
+
+<strong>Choosing an API:</strong>
+
+- Make sure the API is free or has a free tier.
+- <strong>Make sure the API allows LOTS of free requests.</strong>
+- Make sure the API either requires no authentication or simple authentication, else it may not be workable in a front-end only app.
+- Make sure the API returns data in JSON format.
+- Make sure the API has good documentation.
+- <strong>Make sure that the API outputs the data your app needs.</strong>
+
 ### CORS (Cross-Origin Resource Sharing)
 
 Since your application will be front-end only (with no back-end server), there are some APIs that will not work for you due to a lack of CORS permissions on the API server. Learn more about CORS below and take a look at one potential workaround:
