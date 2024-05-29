@@ -10,7 +10,10 @@ Below you will see a demo of the Weather Application that will load data from th
 
 ## Demo
 
-** Your project does not need to look 100% like the image, it is encouraged to **
+** Your project does not need to look 100% like the images below, but it is encouraged to aim for it**
+![Weather App Initial Component](weather_image_one.webp "Initial Component")
+![Weather App User Input](weather_image_two.webp "User Input")
+![Weather App Weather Details](weather_image_three.webp "Weather Details")
 
 ## Important Git/GitHub Expectations:
 
