@@ -31,9 +31,11 @@ Since your application will be front-end only (with no back-end server), there a
 - CORS Anywhere - this is one of those less-than-ideal and somewhat risky resource, but for a simple project like this one with no secure data being transmitted, it's okay in a pinch.
 
 ## Getting Started
+- [ ] Fork from this GitHub Repository
+
+Steps on how to fork a GitHub Repository
 - [ ] Take time to read through the [core requirements](#requirements) below, and think through what components your app will need, what data you'll need to access, what you might store in state, etc.
 - [ ] Consider using [Trello](https://trello.com/) to create a project board to track tasks, priorities and deadlines, and for visibility into project progress and remaining priorities. [See here](https://trello.com/b/WjhFXOdJ/demo-project-board) for an example of how one might be organized.
-- [ ] Fork, Download, Pull, or Clone from this GitHub Repository
 - [ ] Dig into the React or JavaScript documentation if you get stuck!
 - [ ] When you run into a bug or other unexpected behavior, use your debugging tools wisely: read error messages critically, set breakpoints, use `console.log()` and watch variables, use your Google Fu, etc.
 - [ ] Challenge yourself to use ES6 syntax whenever possible: arrow functions, destructuring, the spread operator, object property value shorthand, template literals, etc
@@ -45,7 +47,7 @@ Since your application will be front-end only (with no back-end server), there a
 - [ ] The user of your app should be able to enter either a city/state, a zip code, an address, or a landmark for their search term. If your weather API relies on a lat/lon for search, use a geocoder to convert the human-friendly search into location coordinates.
 - [ ] Each component's props should be destructured for component readibility.
 - [ ] Pull data from your external APIs using `axios` or `fetch`
-- [ ] Hide any API keys using a `.env.local` file
+- [ ] Hide any API keys using a `.env.local` or `.env` file
 - [ ] Your app should have multiple components. Use props to pass data from parent components into child components to allow customization of the child components. (Sometimes it's easiest to start with one or two big components, and to break code out into smaller, more specific components after the core functionality is in place.)
 - [ ] Make your code as DRY (<strong>D</strong>on't <strong>R</strong>epeat <strong>Y</strong>ourself) as possible! 
 
