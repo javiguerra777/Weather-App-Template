@@ -64,7 +64,10 @@ Since your application will be front-end only (with no back-end server), there a
 
 - [ ] Fork from this GitHub Repository
 
-Steps on how to fork a GitHub Repository
+Steps on how to fork a GitHub Repository:
+<br>
+1. dsaklhdalks
+2.
 - [ ] Take time to read through the [core requirements](#requirements) below, and think through what components your app will need, what data you'll need to access, what you might store in state, etc.
 - [ ] Consider using [Trello](https://trello.com/) to create a project board to track tasks, priorities and deadlines, and for visibility into project progress and remaining priorities. [See here](https://trello.com/b/WjhFXOdJ/demo-project-board) for an example of how one might be organized.
 - [ ] Dig into the React or JavaScript documentation if you get stuck!
