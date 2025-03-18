@@ -6,6 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ 
+.App{
+  min-height: 100vh;
+  display: grid;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./assets/PhotoWarm.jpg'); /* Warm weather background */
+  transition: background-image 0.5s ease-in-out;
+
+}
+.App.cold{
+  background-image: url(./assets/Photo1.jpg);
+  color: white;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
